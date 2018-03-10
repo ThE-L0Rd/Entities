@@ -9,8 +9,8 @@ post3 =models.Post('Third post', 'this is the third post')
 
 
 
-print ( 'User name: ' + member1.get_name() + '  |   Age: '+ str( member1.get_age() ) )
-print ( 'User name: ' + member2.get_name() + '  |   Age: '+ str( member2.get_age() ) )
-print ( 'Post 1 title: ' + post1.get_title() + '  |   Content: '+ str( post1.get_body() ) )
-print ( 'Post 2 title: ' + post2.get_title() + '  |   Content: '+ str( post2.get_body() ) )
-print ( 'Post 3 title: ' + post3.get_title() + '  |   Content: '+ str( post3.get_body() ) )
+print ( 'User name: ' + member1.name + '  |   Age: '+ str( member1.age ) )
+print ( 'User name: ' + member2.name + '  |   Age: '+ str( member2.age ) )
+print ( 'Post 1 title: ' + post1.title + '  |   Content: '+ str( post1.body ) )
+print ( 'Post 2 title: ' + post2.title + '  |   Content: '+ str( post2.body ) )
+print ( 'Post 3 title: ' + post3.title + '  |   Content: '+ str( post3.body ) )
