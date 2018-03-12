@@ -3,6 +3,7 @@ class Memeber:
     def __init__(self, name, age):
         self.name = name
         self.age = age
+        self.id = 0
 
 class Post:
     """This class for info about post such as : title, body ."""
